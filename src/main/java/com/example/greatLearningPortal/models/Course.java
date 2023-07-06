@@ -16,10 +16,8 @@ public class Course {
     @ManyToMany(mappedBy = "courses")
     private List<User> users;
 
-    @One
-    ToMany(mappedBy = "course")
+    @OneToMany(mappedBy = "course")
     private List<Quiz> quizzes;
 
-    // Getters and setters (omitted for brevity)
 }
 

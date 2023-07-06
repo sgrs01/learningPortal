@@ -19,8 +19,5 @@ public class Quiz {
     @JoinColumn(name = "skill_id")
     private Skill skill;
 
-    @OneToMany(mappedBy = "quizz")
-    private List<UserCourseQuizz> userCourseQuizzes;
 
-    // Getters and setters (omitted for brevity)
 }

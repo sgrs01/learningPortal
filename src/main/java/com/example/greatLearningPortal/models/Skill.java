@@ -30,6 +30,5 @@ public class Skill {
 
     @OneToMany(mappedBy = "skill")
     private List<JobSkills> jobSkills;
-    // Getters and setters (omitted for brevity)
 }
 

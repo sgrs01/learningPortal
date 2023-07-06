@@ -34,7 +34,5 @@ public class Job {
 
     @Column(name = "mandatory_skill")
     private String mandatorySkill;
-
-    // Getters and setters (omitted for brevity)
 }
 
